@@ -1,0 +1,4 @@
+[console_scripts]
+rl_node = rl_driver.rl_node:main
+train = rl_driver.train:main
+

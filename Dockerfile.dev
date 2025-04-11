@@ -1,0 +1,62 @@
+FROM ros@sha256:b7312519d1f0ca9e486a6f6f876a9de30c017b0f21d52811142e0ab1c33cba5e
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+# Install Python 3.8 and ROS tools
+RUN apt update && apt install -y \
+    python3.8 python3.8-venv python3.8-dev \
+    python3-pip \
+    python3-colcon-common-extensions \
+    && ln -sf python3.8 /usr/bin/python3 \
+    && ln -sf python3.8 /usr/bin/python \
+    && pip3 install --upgrade pip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install OpenCV and Qt dependencies
+RUN apt update && apt install -y \
+    libgl1 \
+    libglib2.0-0 \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libxkbcommon-x11-0 \
+    libxcb-xinerama0 \
+    libxcb1 \
+    libx11-xcb1 \
+    libxcb-render0 \
+    libxcb-shape0 \
+    libxcb-shm0 \
+    qt5-default \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install OpenCV for Python
+RUN pip install --no-cache-dir opencv-python
+
+# Useful tools
+RUN apt update && apt install -y \
+    curl git vim bash htop iputils-ping net-tools \
+    sudo less nano man build-essential tmux \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install rqt_graph and full RQT GUI tools
+RUN sudo apt update && sudo apt install -y \
+    ros-galactic-rqt \
+    ros-galactic-rqt-graph \
+    ros-galactic-rqt-common-plugins \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create non-root user
+RUN useradd -ms /bin/bash auria && \
+    echo 'auria ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+
+USER auria
+WORKDIR /home/auria
+
+# Source ROS setup on shell startup
+RUN echo "source /opt/ros/galactic/setup.bash" >> ~/.bashrc
+
+# Set Qt plugin path to avoid GUI errors
+ENV QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms
+
+CMD ["/bin/bash"]

@@ -1,0 +1,4 @@
+[console_scripts]
+car = environment.car:main
+env = environment.environment:main
+

@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/environment/environment.egg-info
+writing ../../build/environment/environment.egg-info/PKG-INFO
+writing dependency_links to ../../build/environment/environment.egg-info/dependency_links.txt
+writing entry points to ../../build/environment/environment.egg-info/entry_points.txt
+writing requirements to ../../build/environment/environment.egg-info/requires.txt
+writing top-level names to ../../build/environment/environment.egg-info/top_level.txt
+writing manifest file '../../build/environment/environment.egg-info/SOURCES.txt'
+reading manifest file '../../build/environment/environment.egg-info/SOURCES.txt'
+writing manifest file '../../build/environment/environment.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/auria/build/environment/build
+creating /home/auria/build/environment/build/lib
+creating /home/auria/build/environment/build/lib/environment
+copying environment/__init__.py -> /home/auria/build/environment/build/lib/environment
+copying environment/environment.py -> /home/auria/build/environment/build/lib/environment
+copying environment/car.py -> /home/auria/build/environment/build/lib/environment
+running install
+running install_lib
+creating /home/auria/install/environment/lib/python3.8/site-packages/environment
+copying /home/auria/build/environment/build/lib/environment/__init__.py -> /home/auria/install/environment/lib/python3.8/site-packages/environment
+copying /home/auria/build/environment/build/lib/environment/environment.py -> /home/auria/install/environment/lib/python3.8/site-packages/environment
+copying /home/auria/build/environment/build/lib/environment/car.py -> /home/auria/install/environment/lib/python3.8/site-packages/environment
+byte-compiling /home/auria/install/environment/lib/python3.8/site-packages/environment/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/auria/install/environment/lib/python3.8/site-packages/environment/environment.py to environment.cpython-38.pyc
+byte-compiling /home/auria/install/environment/lib/python3.8/site-packages/environment/car.py to car.cpython-38.pyc
+running install_data
+creating /home/auria/install/environment/share/ament_index
+creating /home/auria/install/environment/share/ament_index/resource_index
+creating /home/auria/install/environment/share/ament_index/resource_index/packages
+copying resource/environment -> /home/auria/install/environment/share/ament_index/resource_index/packages
+copying package.xml -> /home/auria/install/environment/share/environment
+creating /home/auria/install/environment/share/environment/tracks
+copying tracks/circular.csv -> /home/auria/install/environment/share/environment/tracks
+copying tracks/acceleration.csv -> /home/auria/install/environment/share/environment/tracks
+copying tracks/small_track.csv -> /home/auria/install/environment/share/environment/tracks
+creating /home/auria/install/environment/share/environment/launch
+copying launch/launch_env.py -> /home/auria/install/environment/share/environment/launch
+running install_egg_info
+Copying ../../build/environment/environment.egg-info to /home/auria/install/environment/lib/python3.8/site-packages/environment-0.1.0-py3.8.egg-info
+running install_scripts
+Installing car script to /home/auria/install/environment/lib/environment
+Installing env script to /home/auria/install/environment/lib/environment
+writing list of installed files to '/home/auria/build/environment/install.log'

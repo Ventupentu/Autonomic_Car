@@ -1,0 +1,6 @@
+Invoking command in '/home/auria/src/build/auria_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/src/install/auria_msgs
+Invoked command in '/home/auria/src/build/auria_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/src/install/auria_msgs
+Invoking command in '/home/auria/src/build/auria_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/auria/src/build/auria_msgs -- -j4 -l4
+Invoked command in '/home/auria/src/build/auria_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/auria/src/build/auria_msgs -- -j4 -l4
+Invoking command in '/home/auria/src/build/auria_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/auria/src/build/auria_msgs
+Invoked command in '/home/auria/src/build/auria_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/auria/src/build/auria_msgs

@@ -1,0 +1,2 @@
+Invoking command in '/home/auria/build/auria_msgs': /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/install/auria_msgs
+Invoked command in '/home/auria/build/auria_msgs' returned '1': /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/install/auria_msgs

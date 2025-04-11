@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.002299] (auria_msgs) JobQueued: {'identifier': 'auria_msgs', 'dependencies': OrderedDict()}
+[0.002539] (rl_driver) JobQueued: {'identifier': 'rl_driver', 'dependencies': OrderedDict()}
+[0.002647] (environment) JobQueued: {'identifier': 'environment', 'dependencies': OrderedDict([('auria_msgs', '/home/auria/src/install/auria_msgs')])}
+[0.002742] (auria_msgs) JobStarted: {'identifier': 'auria_msgs'}
+[0.063911] (rl_driver) JobStarted: {'identifier': 'rl_driver'}
+[0.101534] (-) TimerEvent: {}
+[0.126489] (auria_msgs) JobProgress: {'identifier': 'auria_msgs', 'progress': 'cmake'}
+[0.128773] (auria_msgs) JobProgress: {'identifier': 'auria_msgs', 'progress': 'build'}
+[0.131741] (auria_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/auria/src/build/auria_msgs', '--', '-j4', '-l4'], 'cwd': '/home/auria/src/build/auria_msgs', 'env': OrderedDict([('HOSTNAME', 'Ventupentu-portatil'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/auria/src/install/auria_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/auria'), ('OLDPWD', '/home/auria'), ('ROS_PYTHON_VERSION', '3'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'), ('COLCON_PREFIX_PATH', '/home/auria/src/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/home/auria/src/install/auria_msgs:/opt/ros/galactic'), ('PWD', '/home/auria/src/build/auria_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/auria/src/install/rl_driver/lib/python3.8/site-packages:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/auria/src/install/auria_msgs:/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/opt/ros/galactic')]), 'shell': False}
+[0.201758] (-) TimerEvent: {}
+[0.304811] (-) TimerEvent: {}
+[0.407536] (-) TimerEvent: {}
+[0.465813] (auria_msgs) StdoutLine: {'line': b'[  4%] Built target auria_msgs__cpp\n'}
+[0.494453] (auria_msgs) StdoutLine: {'line': b'[ 17%] Built target auria_msgs__rosidl_generator_c\n'}
+[0.513115] (-) TimerEvent: {}
+[0.616630] (auria_msgs) StdoutLine: {'line': b'[ 30%] Built target auria_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.618267] (-) TimerEvent: {}
+[0.652142] (auria_msgs) StdoutLine: {'line': b'[ 43%] Built target auria_msgs__rosidl_typesupport_introspection_c\n'}
+[0.721620] (-) TimerEvent: {}
+[0.772356] (auria_msgs) StdoutLine: {'line': b'[ 69%] Built target auria_msgs__rosidl_typesupport_cpp\n'}
+[0.773034] (auria_msgs) StdoutLine: {'line': b'[ 69%] Built target auria_msgs__rosidl_typesupport_c\n'}
+[0.830084] (-) TimerEvent: {}
+[0.879300] (auria_msgs) StdoutLine: {'line': b'[ 69%] Built target auria_msgs\n'}
+[0.930770] (-) TimerEvent: {}
+[0.982783] (auria_msgs) StdoutLine: {'line': b'[ 73%] Built target auria_msgs__py\n'}
+[1.031084] (-) TimerEvent: {}
+[1.104113] (auria_msgs) StdoutLine: {'line': b'[ 82%] Built target auria_msgs__python\n'}
+[1.131281] (-) TimerEvent: {}
+[1.232216] (-) TimerEvent: {}
+[1.250187] (auria_msgs) StdoutLine: {'line': b'[ 91%] Built target auria_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.267109] (auria_msgs) StdoutLine: {'line': b'[100%] Built target auria_msgs__rosidl_typesupport_c__pyext\n'}
+[1.332228] (-) TimerEvent: {}
+[1.347867] (auria_msgs) CommandEnded: {'returncode': 0}
+[1.432392] (-) TimerEvent: {}
+[1.538133] (-) TimerEvent: {}
+[1.596659] (auria_msgs) JobProgress: {'identifier': 'auria_msgs', 'progress': 'install'}
+[1.638509] (-) TimerEvent: {}
+[1.644420] (auria_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/auria/src/build/auria_msgs'], 'cwd': '/home/auria/src/build/auria_msgs', 'env': OrderedDict([('HOSTNAME', 'Ventupentu-portatil'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/auria/src/install/auria_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/auria'), ('OLDPWD', '/home/auria'), ('ROS_PYTHON_VERSION', '3'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'), ('COLCON_PREFIX_PATH', '/home/auria/src/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/home/auria/src/install/auria_msgs:/opt/ros/galactic'), ('PWD', '/home/auria/src/build/auria_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/auria/src/install/rl_driver/lib/python3.8/site-packages:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/auria/src/install/auria_msgs:/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/opt/ros/galactic')]), 'shell': False}
+[1.690615] (auria_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.691395] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/ament_index/resource_index/rosidl_interfaces/auria_msgs\n'}
+[1.694368] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs\n'}
+[1.694821] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg\n'}
+[1.695136] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/point_array.h\n'}
+[1.695429] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.695692] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail\n'}
+[1.695952] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__struct.h\n'}
+[1.696237] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__type_support.h\n'}
+[1.696494] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__functions.h\n'}
+[1.696742] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__functions.c\n'}
+[1.696989] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/library_path.sh\n'}
+[1.697562] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/library_path.dsv\n'}
+[1.697820] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_generator_c.so\n'}
+[1.698090] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs\n'}
+[1.698569] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg\n'}
+[1.698827] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.699109] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail\n'}
+[1.699383] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__type_support.c\n'}
+[1.699659] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h\n'}
+[1.699908] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.700578] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_typesupport_c.so\n'}
+[1.701826] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs\n'}
+[1.704615] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg\n'}
+[1.704970] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/point_array.hpp\n'}
+[1.705289] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail\n'}
+[1.705649] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__struct.hpp\n'}
+[1.706089] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__builder.hpp\n'}
+[1.706375] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__traits.hpp\n'}
+[1.706626] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs\n'}
+[1.706879] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg\n'}
+[1.709425] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail\n'}
+[1.711358] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.711662] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__type_support.cpp\n'}
+[1.711927] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.712221] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_typesupport_cpp.so\n'}
+[1.713329] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/pythonpath.sh\n'}
+[1.713675] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/pythonpath.dsv\n'}
+[1.717416] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/__init__.py\n'}
+[1.738619] (-) TimerEvent: {}
+[1.840449] (-) TimerEvent: {}
+[1.867825] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/msg\n'}
+[1.868351] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/msg/_point_array_s.c\n'}
+[1.868939] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/msg/__init__.py\n'}
+[1.869339] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/msg/_point_array.py\n'}
+[1.869622] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/auria_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.872285] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/auria_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.874318] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__python.so\n'}
+[1.875696] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/msg/PointArray.idl\n'}
+[1.876287] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/msg/PointArray.msg\n'}
+[1.876650] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/ament_index/resource_index/package_run_dependencies/auria_msgs\n'}
+[1.877053] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/ament_index/resource_index/parent_prefix_path/auria_msgs\n'}
+[1.877734] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/ament_prefix_path.sh\n'}
+[1.878261] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/ament_prefix_path.dsv\n'}
+[1.878668] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/path.sh\n'}
+[1.879340] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/path.dsv\n'}
+[1.879636] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/local_setup.bash\n'}
+[1.879894] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/local_setup.sh\n'}
+[1.880322] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/local_setup.zsh\n'}
+[1.880588] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/local_setup.dsv\n'}
+[1.880839] (auria_msgs) StdoutLine: {'line': b'-- Installing: /home/auria/src/install/auria_msgs/share/auria_msgs/package.dsv\n'}
+[1.881581] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/ament_index/resource_index/packages/auria_msgs\n'}
+[1.882351] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_generator_cExport.cmake\n'}
+[1.882947] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.883544] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.884072] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.884549] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.884967] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.885736] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.886554] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.887155] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.887674] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.888259] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.888954] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.889454] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.889727] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.889986] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.890645] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.890975] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.891276] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgsConfig.cmake\n'}
+[1.891544] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgsConfig-version.cmake\n'}
+[1.891798] (auria_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/package.xml\n'}
+[1.900269] (auria_msgs) CommandEnded: {'returncode': 0}
+[1.946898] (-) TimerEvent: {}
+[2.047782] (-) TimerEvent: {}
+[2.151755] (-) TimerEvent: {}
+[2.254608] (-) TimerEvent: {}
+[2.333967] (auria_msgs) JobEnded: {'identifier': 'auria_msgs', 'rc': 0}
+[2.342603] (environment) JobStarted: {'identifier': 'environment'}
+[2.359905] (-) TimerEvent: {}
+[2.460968] (-) TimerEvent: {}
+[2.562706] (-) TimerEvent: {}
+[2.663286] (-) TimerEvent: {}
+[2.764072] (-) TimerEvent: {}
+[2.864676] (-) TimerEvent: {}
+[2.965518] (-) TimerEvent: {}
+[3.066234] (-) TimerEvent: {}
+[3.167995] (-) TimerEvent: {}
+[3.276305] (-) TimerEvent: {}
+[3.348553] (rl_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/rl_driver', 'build', '--build-base', '/home/auria/src/build/rl_driver/build', 'install', '--record', '/home/auria/src/build/rl_driver/install.log', '--single-version-externally-managed'], 'cwd': '/home/auria/src/rl_driver', 'env': {'HOSTNAME': 'Ventupentu-portatil', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/auria/src/install/auria_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/auria', 'OLDPWD': '/home/auria', 'ROS_PYTHON_VERSION': '3', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms', 'COLCON_PREFIX_PATH': '/home/auria/src/install', 'ROS_DISTRO': 'galactic', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/home/auria/src/install/auria_msgs:/opt/ros/galactic', 'PWD': '/home/auria/src/build/rl_driver', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/auria/src/build/rl_driver/prefix_override:/home/auria/src/install/rl_driver/lib/python3.8/site-packages:/home/auria/src/install/rl_driver/lib/python3.8/site-packages:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/auria/src/install/auria_msgs'}, 'shell': False}
+[3.384877] (-) TimerEvent: {}
+[3.506758] (-) TimerEvent: {}
+[3.611416] (-) TimerEvent: {}
+[3.717489] (-) TimerEvent: {}
+[3.819425] (-) TimerEvent: {}
+[3.926756] (-) TimerEvent: {}
+[4.028559] (-) TimerEvent: {}
+[4.131319] (-) TimerEvent: {}
+[4.232216] (-) TimerEvent: {}
+[4.327216] (rl_driver) StdoutLine: {'line': b'running egg_info\n'}
+[4.332339] (-) TimerEvent: {}
+[4.334332] (rl_driver) StdoutLine: {'line': b'writing ../build/rl_driver/rl_driver.egg-info/PKG-INFO\n'}
+[4.334898] (rl_driver) StdoutLine: {'line': b'writing dependency_links to ../build/rl_driver/rl_driver.egg-info/dependency_links.txt\n'}
+[4.335249] (rl_driver) StdoutLine: {'line': b'writing entry points to ../build/rl_driver/rl_driver.egg-info/entry_points.txt\n'}
+[4.335526] (rl_driver) StdoutLine: {'line': b'writing requirements to ../build/rl_driver/rl_driver.egg-info/requires.txt\n'}
+[4.335786] (rl_driver) StdoutLine: {'line': b'writing top-level names to ../build/rl_driver/rl_driver.egg-info/top_level.txt\n'}
+[4.437282] (-) TimerEvent: {}
+[4.535812] (rl_driver) StdoutLine: {'line': b"reading manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'\n"}
+[4.537404] (-) TimerEvent: {}
+[4.539775] (rl_driver) StdoutLine: {'line': b"writing manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'\n"}
+[4.540536] (rl_driver) StdoutLine: {'line': b'running build\n'}
+[4.540855] (rl_driver) StdoutLine: {'line': b'running build_py\n'}
+[4.542756] (rl_driver) StdoutLine: {'line': b'running install\n'}
+[4.548259] (rl_driver) StdoutLine: {'line': b'running install_lib\n'}
+[4.559315] (rl_driver) StdoutLine: {'line': b'running install_data\n'}
+[4.563214] (rl_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.579262] (rl_driver) StdoutLine: {'line': b"removing '/home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.581075] (rl_driver) StdoutLine: {'line': b'Copying ../build/rl_driver/rl_driver.egg-info to /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info\n'}
+[4.587232] (rl_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[4.639111] (-) TimerEvent: {}
+[4.686661] (rl_driver) StdoutLine: {'line': b'Installing rl_node script to /home/auria/src/install/rl_driver/lib/rl_driver\n'}
+[4.690037] (rl_driver) StdoutLine: {'line': b'Installing train script to /home/auria/src/install/rl_driver/lib/rl_driver\n'}
+[4.690498] (rl_driver) StdoutLine: {'line': b"writing list of installed files to '/home/auria/src/build/rl_driver/install.log'\n"}
+[4.739293] (-) TimerEvent: {}
+[4.766430] (environment) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/environment', 'build', '--build-base', '/home/auria/src/build/environment/build', 'install', '--record', '/home/auria/src/build/environment/install.log', '--single-version-externally-managed'], 'cwd': '/home/auria/src/environment', 'env': {'HOSTNAME': 'Ventupentu-portatil', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/auria/src/install/auria_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/auria', 'OLDPWD': '/home/auria', 'ROS_PYTHON_VERSION': '3', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms', 'COLCON_PREFIX_PATH': '/home/auria/src/install', 'ROS_DISTRO': 'galactic', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/home/auria/src/install/auria_msgs:/opt/ros/galactic', 'PWD': '/home/auria/src/build/environment', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/auria/src/build/environment/prefix_override:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages:/home/auria/src/install/rl_driver/lib/python3.8/site-packages:/home/auria/src/install/environment/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/auria/src/install/auria_msgs'}, 'shell': False}
+[4.795259] (rl_driver) CommandEnded: {'returncode': 0}
+[4.842624] (-) TimerEvent: {}
+[4.859712] (rl_driver) JobEnded: {'identifier': 'rl_driver', 'rc': 0}
+[4.943141] (-) TimerEvent: {}
+[5.046116] (-) TimerEvent: {}
+[5.149122] (-) TimerEvent: {}
+[5.254112] (-) TimerEvent: {}
+[5.357132] (-) TimerEvent: {}
+[5.460112] (-) TimerEvent: {}
+[5.562199] (-) TimerEvent: {}
+[5.642296] (environment) StdoutLine: {'line': b'running egg_info\n'}
+[5.642880] (environment) StdoutLine: {'line': b'writing ../build/environment/environment.egg-info/PKG-INFO\n'}
+[5.643383] (environment) StdoutLine: {'line': b'writing dependency_links to ../build/environment/environment.egg-info/dependency_links.txt\n'}
+[5.643843] (environment) StdoutLine: {'line': b'writing entry points to ../build/environment/environment.egg-info/entry_points.txt\n'}
+[5.644291] (environment) StdoutLine: {'line': b'writing requirements to ../build/environment/environment.egg-info/requires.txt\n'}
+[5.644581] (environment) StdoutLine: {'line': b'writing top-level names to ../build/environment/environment.egg-info/top_level.txt\n'}
+[5.662341] (-) TimerEvent: {}
+[5.766255] (-) TimerEvent: {}
+[5.781535] (environment) StdoutLine: {'line': b"reading manifest file '../build/environment/environment.egg-info/SOURCES.txt'\n"}
+[5.788352] (environment) StdoutLine: {'line': b"writing manifest file '../build/environment/environment.egg-info/SOURCES.txt'\n"}
+[5.788843] (environment) StdoutLine: {'line': b'running build\n'}
+[5.789205] (environment) StdoutLine: {'line': b'running build_py\n'}
+[5.789492] (environment) StdoutLine: {'line': b'copying environment/car.py -> /home/auria/src/build/environment/build/lib/environment\n'}
+[5.789890] (environment) StdoutLine: {'line': b'running install\n'}
+[5.791233] (environment) StdoutLine: {'line': b'running install_lib\n'}
+[5.795519] (environment) StdoutLine: {'line': b'copying /home/auria/src/build/environment/build/lib/environment/car.py -> /home/auria/src/install/environment/lib/python3.8/site-packages/environment\n'}
+[5.797944] (environment) StdoutLine: {'line': b'byte-compiling /home/auria/src/install/environment/lib/python3.8/site-packages/environment/car.py to car.cpython-38.pyc\n'}
+[5.804850] (environment) StdoutLine: {'line': b'running install_data\n'}
+[5.807267] (environment) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.813714] (environment) StdoutLine: {'line': b"removing '/home/auria/src/install/environment/lib/python3.8/site-packages/environment-0.1.0-py3.8.egg-info' (and everything under it)\n"}
+[5.814993] (environment) StdoutLine: {'line': b'Copying ../build/environment/environment.egg-info to /home/auria/src/install/environment/lib/python3.8/site-packages/environment-0.1.0-py3.8.egg-info\n'}
+[5.821209] (environment) StdoutLine: {'line': b'running install_scripts\n'}
+[5.866406] (-) TimerEvent: {}
+[5.885382] (environment) StdoutLine: {'line': b'Installing car script to /home/auria/src/install/environment/lib/environment\n'}
+[5.886100] (environment) StdoutLine: {'line': b'Installing env script to /home/auria/src/install/environment/lib/environment\n'}
+[5.887888] (environment) StdoutLine: {'line': b"writing list of installed files to '/home/auria/src/build/environment/install.log'\n"}
+[5.965174] (environment) CommandEnded: {'returncode': 0}
+[5.970535] (-) TimerEvent: {}
+[6.017223] (environment) JobEnded: {'identifier': 'environment', 'rc': 0}
+[6.020104] (-) EventReactorShutdown: {}

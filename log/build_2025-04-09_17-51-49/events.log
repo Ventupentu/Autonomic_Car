@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000430] (auria_msgs) JobQueued: {'identifier': 'auria_msgs', 'dependencies': OrderedDict()}
+[0.000596] (rl_driver) JobQueued: {'identifier': 'rl_driver', 'dependencies': OrderedDict()}
+[0.000709] (environment) JobQueued: {'identifier': 'environment', 'dependencies': OrderedDict([('auria_msgs', '/home/auria/install/auria_msgs')])}
+[0.000812] (auria_msgs) JobStarted: {'identifier': 'auria_msgs'}
+[0.036469] (rl_driver) JobStarted: {'identifier': 'rl_driver'}
+[0.068701] (auria_msgs) JobProgress: {'identifier': 'auria_msgs', 'progress': 'cmake'}
+[0.071803] (auria_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/auria/src/auria_msgs', '-DCMAKE_INSTALL_PREFIX=/home/auria/install/auria_msgs'], 'cwd': '/home/auria/build/auria_msgs', 'env': OrderedDict([('HOSTNAME', 'Ventupentu-portatil'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('HOME', '/home/auria'), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('PWD', '/home/auria/build/auria_msgs'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.098534] (-) TimerEvent: {}
+[0.169597] (auria_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:4 (find_package):\n'}
+[0.170911] (auria_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.171211] (auria_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.171453] (auria_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.171729] (auria_msgs) StderrLine: {'line': b'\n'}
+[0.171963] (auria_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.172191] (auria_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.172410] (auria_msgs) StderrLine: {'line': b'\n'}
+[0.172667] (auria_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.172897] (auria_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.173120] (auria_msgs) StderrLine: {'line': b'\n'}
+[0.173340] (auria_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.173603] (auria_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.173839] (auria_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.174053] (auria_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.174267] (auria_msgs) StderrLine: {'line': b'\n'}
+[0.174506] (auria_msgs) StderrLine: {'line': b'\n'}
+[0.174763] (auria_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.175856] (auria_msgs) StdoutLine: {'line': b'See also "/home/auria/build/auria_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.198372] (-) TimerEvent: {}
+[0.298963] (-) TimerEvent: {}
+[0.399609] (-) TimerEvent: {}
+[0.501181] (-) TimerEvent: {}
+[0.601765] (-) TimerEvent: {}
+[0.702335] (-) TimerEvent: {}
+[0.757913] (auria_msgs) CommandEnded: {'returncode': 1}
+[0.802835] (-) TimerEvent: {}
+[0.860147] (auria_msgs) JobEnded: {'identifier': 'auria_msgs', 'rc': 1}
+[0.902835] (-) TimerEvent: {}
+[1.003389] (-) TimerEvent: {}
+[1.103986] (-) TimerEvent: {}
+[1.204559] (-) TimerEvent: {}
+[1.305132] (-) TimerEvent: {}
+[1.405687] (-) TimerEvent: {}
+[1.506232] (-) TimerEvent: {}
+[1.606846] (-) TimerEvent: {}
+[1.707400] (-) TimerEvent: {}
+[1.807979] (-) TimerEvent: {}
+[1.898444] (rl_driver) JobEnded: {'identifier': 'rl_driver', 'rc': 'SIGINT'}
+[1.908204] (-) TimerEvent: {}
+[1.911152] (environment) JobSkipped: {'identifier': 'environment'}
+[1.911342] (-) EventReactorShutdown: {}

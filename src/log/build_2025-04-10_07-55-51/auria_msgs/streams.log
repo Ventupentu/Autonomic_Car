@@ -1,0 +1,95 @@
+[0.142s] Invoking command in '/home/auria/src/build/auria_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/opt/ros/galactic /usr/bin/cmake --build /home/auria/src/build/auria_msgs -- -j4 -l4
+[0.490s] [  4%] Built target auria_msgs__cpp
+[0.646s] [ 17%] Built target auria_msgs__rosidl_generator_c
+[0.819s] [ 30%] Built target auria_msgs__rosidl_typesupport_introspection_cpp
+[0.991s] [ 43%] Built target auria_msgs__rosidl_typesupport_introspection_c
+[1.163s] [ 56%] Built target auria_msgs__rosidl_typesupport_cpp
+[1.337s] [ 69%] Built target auria_msgs__rosidl_typesupport_c
+[1.475s] [ 69%] Built target auria_msgs
+[1.649s] [ 73%] Built target auria_msgs__py
+[1.801s] [ 82%] Built target auria_msgs__python
+[2.063s] [ 91%] Built target auria_msgs__rosidl_typesupport_c__pyext
+[2.349s] [100%] Built target auria_msgs__rosidl_typesupport_introspection_c__pyext
+[2.467s] Invoked command in '/home/auria/src/build/auria_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/opt/ros/galactic /usr/bin/cmake --build /home/auria/src/build/auria_msgs -- -j4 -l4
+[2.823s] Invoking command in '/home/auria/src/build/auria_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/opt/ros/galactic /usr/bin/cmake --install /home/auria/src/build/auria_msgs
+[2.895s] -- Install configuration: ""
+[2.899s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/ament_index/resource_index/rosidl_interfaces/auria_msgs
+[2.904s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs
+[2.904s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg
+[2.908s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/point_array.h
+[2.908s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.909s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail
+[2.909s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__struct.h
+[2.909s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__type_support.h
+[2.910s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__functions.h
+[2.916s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__functions.c
+[2.917s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/library_path.sh
+[2.919s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/library_path.dsv
+[2.923s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_generator_c.so
+[2.924s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs
+[2.926s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg
+[2.928s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.929s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail
+[2.937s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__type_support.c
+[2.937s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[2.937s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_typesupport_introspection_c.so
+[2.938s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_typesupport_c.so
+[2.938s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs
+[2.938s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg
+[2.943s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/point_array.hpp
+[2.944s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail
+[2.944s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__struct.hpp
+[2.944s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__builder.hpp
+[2.945s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__traits.hpp
+[2.945s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs
+[2.949s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg
+[2.950s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail
+[2.950s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[2.951s] -- Up-to-date: /home/auria/src/install/auria_msgs/include/auria_msgs/msg/detail/point_array__type_support.cpp
+[2.951s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_typesupport_introspection_cpp.so
+[2.951s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__rosidl_typesupport_cpp.so
+[2.951s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/pythonpath.sh
+[2.968s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/pythonpath.dsv
+[2.968s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/__init__.py
+[3.109s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/msg
+[3.115s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/msg/_point_array_s.c
+[3.116s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/msg/__init__.py
+[3.116s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/msg/_point_array.py
+[3.116s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/auria_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.123s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/python3.8/site-packages/auria_msgs/auria_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.127s] -- Up-to-date: /home/auria/src/install/auria_msgs/lib/libauria_msgs__python.so
+[3.130s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/msg/PointArray.idl
+[3.131s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/msg/PointArray.msg
+[3.131s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/ament_index/resource_index/package_run_dependencies/auria_msgs
+[3.132s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/ament_index/resource_index/parent_prefix_path/auria_msgs
+[3.133s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/ament_prefix_path.sh
+[3.134s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/ament_prefix_path.dsv
+[3.135s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/path.sh
+[3.136s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/environment/path.dsv
+[3.137s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/local_setup.bash
+[3.138s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/local_setup.sh
+[3.139s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/local_setup.zsh
+[3.141s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/local_setup.dsv
+[3.142s] -- Installing: /home/auria/src/install/auria_msgs/share/auria_msgs/package.dsv
+[3.145s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/ament_index/resource_index/packages/auria_msgs
+[3.149s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_generator_cExport.cmake
+[3.152s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.152s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.154s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.155s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_cExport.cmake
+[3.156s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.159s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_generator_cppExport.cmake
+[3.159s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.160s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.162s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_cppExport.cmake
+[3.163s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.165s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/rosidl_cmake-extras.cmake
+[3.166s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.167s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.168s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.169s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.170s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.171s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgsConfig.cmake
+[3.172s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/cmake/auria_msgsConfig-version.cmake
+[3.175s] -- Up-to-date: /home/auria/src/install/auria_msgs/share/auria_msgs/package.xml
+[3.189s] Invoked command in '/home/auria/src/build/auria_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/opt/ros/galactic /usr/bin/cmake --install /home/auria/src/build/auria_msgs

@@ -1,0 +1,21 @@
+[2.930s] Invoking command in '/home/auria/src/rl_driver': PYTHONPATH=/home/auria/src/build/rl_driver/prefix_override:/home/auria/src/install/rl_driver/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/rl_driver build --build-base /home/auria/src/build/rl_driver/build install --record /home/auria/src/build/rl_driver/install.log --single-version-externally-managed
+[3.550s] running egg_info
+[3.551s] writing ../build/rl_driver/rl_driver.egg-info/PKG-INFO
+[3.552s] writing dependency_links to ../build/rl_driver/rl_driver.egg-info/dependency_links.txt
+[3.552s] writing entry points to ../build/rl_driver/rl_driver.egg-info/entry_points.txt
+[3.553s] writing requirements to ../build/rl_driver/rl_driver.egg-info/requires.txt
+[3.553s] writing top-level names to ../build/rl_driver/rl_driver.egg-info/top_level.txt
+[3.687s] reading manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'
+[3.693s] writing manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'
+[3.693s] running build
+[3.693s] running build_py
+[3.693s] running install
+[3.698s] running install_lib
+[3.702s] running install_data
+[3.704s] running install_egg_info
+[3.714s] removing '/home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[3.715s] Copying ../build/rl_driver/rl_driver.egg-info to /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info
+[3.717s] running install_scripts
+[3.784s] Installing rl_node script to /home/auria/src/install/rl_driver/lib/rl_driver
+[3.790s] writing list of installed files to '/home/auria/src/build/rl_driver/install.log'
+[3.872s] Invoked command in '/home/auria/src/rl_driver' returned '0': PYTHONPATH=/home/auria/src/build/rl_driver/prefix_override:/home/auria/src/install/rl_driver/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/rl_driver build --build-base /home/auria/src/build/rl_driver/build install --record /home/auria/src/build/rl_driver/install.log --single-version-externally-managed

@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (-) JobUnselected: {'identifier': 'auria_msgs'}
+[0.003348] (-) JobUnselected: {'identifier': 'environment'}
+[0.003488] (rl_driver) JobQueued: {'identifier': 'rl_driver', 'dependencies': OrderedDict()}
+[0.003586] (rl_driver) JobStarted: {'identifier': 'rl_driver'}
+[0.097522] (-) TimerEvent: {}
+[0.198915] (-) TimerEvent: {}
+[0.299675] (-) TimerEvent: {}
+[0.400287] (-) TimerEvent: {}
+[0.500859] (-) TimerEvent: {}
+[0.601501] (-) TimerEvent: {}
+[0.702691] (-) TimerEvent: {}
+[0.806289] (-) TimerEvent: {}
+[0.907118] (-) TimerEvent: {}
+[1.008018] (-) TimerEvent: {}
+[1.109202] (-) TimerEvent: {}
+[1.211978] (-) TimerEvent: {}
+[1.312581] (-) TimerEvent: {}
+[1.413190] (-) TimerEvent: {}
+[1.514885] (-) TimerEvent: {}
+[1.615809] (-) TimerEvent: {}
+[1.716439] (-) TimerEvent: {}
+[1.816994] (-) TimerEvent: {}
+[1.917545] (-) TimerEvent: {}
+[2.019057] (-) TimerEvent: {}
+[2.120799] (-) TimerEvent: {}
+[2.223951] (-) TimerEvent: {}
+[2.280188] (rl_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/rl_driver', 'build', '--build-base', '/home/auria/src/build/rl_driver/build', 'install', '--record', '/home/auria/src/build/rl_driver/install.log', '--single-version-externally-managed'], 'cwd': '/home/auria/src/rl_driver', 'env': {'HOSTNAME': 'Ventupentu-portatil', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/auria/src/install/auria_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/auria', 'OLDPWD': '/home/auria', 'ROS_PYTHON_VERSION': '3', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms', 'COLCON_PREFIX_PATH': '/home/auria/src/install', 'ROS_DISTRO': 'galactic', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/auria/src/install/rl_driver:/home/auria/src/install/environment:/home/auria/src/install/auria_msgs:/opt/ros/galactic', 'PWD': '/home/auria/src/build/rl_driver', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/auria/src/build/rl_driver/prefix_override:/home/auria/src/install/rl_driver/lib/python3.8/site-packages:/home/auria/src/install/rl_driver/lib/python3.8/site-packages:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/auria/src/install/auria_msgs'}, 'shell': False}
+[2.324299] (-) TimerEvent: {}
+[2.426903] (-) TimerEvent: {}
+[2.527633] (-) TimerEvent: {}
+[2.628456] (-) TimerEvent: {}
+[2.734936] (-) TimerEvent: {}
+[2.836816] (-) TimerEvent: {}
+[2.937438] (-) TimerEvent: {}
+[3.038562] (-) TimerEvent: {}
+[3.085682] (rl_driver) StdoutLine: {'line': b'running egg_info\n'}
+[3.087873] (rl_driver) StdoutLine: {'line': b'writing ../build/rl_driver/rl_driver.egg-info/PKG-INFO\n'}
+[3.089335] (rl_driver) StdoutLine: {'line': b'writing dependency_links to ../build/rl_driver/rl_driver.egg-info/dependency_links.txt\n'}
+[3.089694] (rl_driver) StdoutLine: {'line': b'writing entry points to ../build/rl_driver/rl_driver.egg-info/entry_points.txt\n'}
+[3.090816] (rl_driver) StdoutLine: {'line': b'writing requirements to ../build/rl_driver/rl_driver.egg-info/requires.txt\n'}
+[3.091552] (rl_driver) StdoutLine: {'line': b'writing top-level names to ../build/rl_driver/rl_driver.egg-info/top_level.txt\n'}
+[3.139502] (-) TimerEvent: {}
+[3.222431] (rl_driver) StdoutLine: {'line': b"reading manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'\n"}
+[3.228427] (rl_driver) StdoutLine: {'line': b"writing manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'\n"}
+[3.229081] (rl_driver) StdoutLine: {'line': b'running build\n'}
+[3.229447] (rl_driver) StdoutLine: {'line': b'running build_py\n'}
+[3.229908] (rl_driver) StdoutLine: {'line': b'copying rl_driver/ros2_env.py -> /home/auria/src/build/rl_driver/build/lib/rl_driver\n'}
+[3.231227] (rl_driver) StdoutLine: {'line': b'running install\n'}
+[3.235123] (rl_driver) StdoutLine: {'line': b'running install_lib\n'}
+[3.239620] (rl_driver) StdoutLine: {'line': b'copying /home/auria/src/build/rl_driver/build/lib/rl_driver/ros2_env.py -> /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver\n'}
+[3.240125] (-) TimerEvent: {}
+[3.242208] (rl_driver) StdoutLine: {'line': b'byte-compiling /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver/ros2_env.py to ros2_env.cpython-38.pyc\n'}
+[3.253106] (rl_driver) StdoutLine: {'line': b'running install_data\n'}
+[3.254085] (rl_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.258895] (rl_driver) StdoutLine: {'line': b"removing '/home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.260376] (rl_driver) StdoutLine: {'line': b'Copying ../build/rl_driver/rl_driver.egg-info to /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info\n'}
+[3.264494] (rl_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[3.330898] (rl_driver) StdoutLine: {'line': b'Installing rl_node script to /home/auria/src/install/rl_driver/lib/rl_driver\n'}
+[3.331370] (rl_driver) StdoutLine: {'line': b'Installing train script to /home/auria/src/install/rl_driver/lib/rl_driver\n'}
+[3.332522] (rl_driver) StdoutLine: {'line': b"writing list of installed files to '/home/auria/src/build/rl_driver/install.log'\n"}
+[3.340575] (-) TimerEvent: {}
+[3.407115] (rl_driver) CommandEnded: {'returncode': 0}
+[3.442256] (-) TimerEvent: {}
+[3.503128] (rl_driver) JobEnded: {'identifier': 'rl_driver', 'rc': 0}
+[3.506019] (-) EventReactorShutdown: {}

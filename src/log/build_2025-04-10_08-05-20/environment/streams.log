@@ -1,0 +1,22 @@
+[2.567s] Invoking command in '/home/auria/src/environment': PYTHONPATH=/home/auria/src/build/environment/prefix_override:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages:/home/auria/src/install/rl_driver/lib/python3.8/site-packages:/home/auria/src/install/environment/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/environment build --build-base /home/auria/src/build/environment/build install --record /home/auria/src/build/environment/install.log --single-version-externally-managed
+[3.510s] running egg_info
+[3.512s] writing ../build/environment/environment.egg-info/PKG-INFO
+[3.514s] writing dependency_links to ../build/environment/environment.egg-info/dependency_links.txt
+[3.514s] writing entry points to ../build/environment/environment.egg-info/entry_points.txt
+[3.515s] writing requirements to ../build/environment/environment.egg-info/requires.txt
+[3.515s] writing top-level names to ../build/environment/environment.egg-info/top_level.txt
+[3.687s] reading manifest file '../build/environment/environment.egg-info/SOURCES.txt'
+[3.692s] writing manifest file '../build/environment/environment.egg-info/SOURCES.txt'
+[3.692s] running build
+[3.692s] running build_py
+[3.693s] running install
+[3.698s] running install_lib
+[3.705s] running install_data
+[3.707s] running install_egg_info
+[3.715s] removing '/home/auria/src/install/environment/lib/python3.8/site-packages/environment-0.1.0-py3.8.egg-info' (and everything under it)
+[3.717s] Copying ../build/environment/environment.egg-info to /home/auria/src/install/environment/lib/python3.8/site-packages/environment-0.1.0-py3.8.egg-info
+[3.726s] running install_scripts
+[3.809s] Installing car script to /home/auria/src/install/environment/lib/environment
+[3.813s] Installing env script to /home/auria/src/install/environment/lib/environment
+[3.813s] writing list of installed files to '/home/auria/src/build/environment/install.log'
+[3.913s] Invoked command in '/home/auria/src/environment' returned '0': PYTHONPATH=/home/auria/src/build/environment/prefix_override:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages:/home/auria/src/install/rl_driver/lib/python3.8/site-packages:/home/auria/src/install/environment/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/environment build --build-base /home/auria/src/build/environment/build install --record /home/auria/src/build/environment/install.log --single-version-externally-managed

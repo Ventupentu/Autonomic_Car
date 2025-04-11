@@ -1,0 +1,28 @@
+[3.255s] Invoking command in '/home/auria/src/rl_driver': PYTHONPATH=/home/auria/src/build/rl_driver/prefix_override:/home/auria/src/install/rl_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rl_driver build --build-base /home/auria/src/build/rl_driver/build install --record /home/auria/src/build/rl_driver/install.log --single-version-externally-managed
+[4.366s] running egg_info
+[4.367s] writing ../build/rl_driver/rl_driver.egg-info/PKG-INFO
+[4.369s] writing dependency_links to ../build/rl_driver/rl_driver.egg-info/dependency_links.txt
+[4.370s] writing entry points to ../build/rl_driver/rl_driver.egg-info/entry_points.txt
+[4.372s] writing requirements to ../build/rl_driver/rl_driver.egg-info/requires.txt
+[4.373s] writing top-level names to ../build/rl_driver/rl_driver.egg-info/top_level.txt
+[4.540s] reading manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'
+[4.545s] writing manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'
+[4.546s] running build
+[4.546s] running build_py
+[4.552s] copying rl_driver/train.py -> /home/auria/src/build/rl_driver/build/lib/rl_driver
+[4.553s] copying rl_driver/gym_ros2_env.py -> /home/auria/src/build/rl_driver/build/lib/rl_driver
+[4.553s] running install
+[4.560s] running install_lib
+[4.562s] copying /home/auria/src/build/rl_driver/build/lib/rl_driver/train.py -> /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver
+[4.566s] copying /home/auria/src/build/rl_driver/build/lib/rl_driver/gym_ros2_env.py -> /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver
+[4.568s] byte-compiling /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver/train.py to train.cpython-38.pyc
+[4.573s] byte-compiling /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver/gym_ros2_env.py to gym_ros2_env.cpython-38.pyc
+[4.577s] running install_data
+[4.578s] running install_egg_info
+[4.585s] removing '/home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[4.589s] Copying ../build/rl_driver/rl_driver.egg-info to /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info
+[4.590s] running install_scripts
+[4.678s] Installing rl_node script to /home/auria/src/install/rl_driver/lib/rl_driver
+[4.680s] Installing train script to /home/auria/src/install/rl_driver/lib/rl_driver
+[4.681s] writing list of installed files to '/home/auria/src/build/rl_driver/install.log'
+[4.792s] Invoked command in '/home/auria/src/rl_driver' returned '0': PYTHONPATH=/home/auria/src/build/rl_driver/prefix_override:/home/auria/src/install/rl_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rl_driver build --build-base /home/auria/src/build/rl_driver/build install --record /home/auria/src/build/rl_driver/install.log --single-version-externally-managed

@@ -1,0 +1,22 @@
+[2.036s] Invoking command in '/home/auria/src/environment': AMENT_PREFIX_PATH=/home/auria/src/install/auria_msgs CMAKE_PREFIX_PATH=/home/auria/src/install/auria_msgs LD_LIBRARY_PATH=/home/auria/src/install/auria_msgs/lib PYTHONPATH=/home/auria/src/build/environment/prefix_override:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/environment build --build-base /home/auria/src/build/environment/build install --record /home/auria/src/build/environment/install.log --single-version-externally-managed
+[2.667s] running egg_info
+[2.667s] writing ../build/environment/environment.egg-info/PKG-INFO
+[2.667s] writing dependency_links to ../build/environment/environment.egg-info/dependency_links.txt
+[2.668s] writing entry points to ../build/environment/environment.egg-info/entry_points.txt
+[2.668s] writing requirements to ../build/environment/environment.egg-info/requires.txt
+[2.668s] writing top-level names to ../build/environment/environment.egg-info/top_level.txt
+[2.797s] reading manifest file '../build/environment/environment.egg-info/SOURCES.txt'
+[2.803s] writing manifest file '../build/environment/environment.egg-info/SOURCES.txt'
+[2.806s] running build
+[2.806s] running build_py
+[2.807s] running install
+[2.810s] running install_lib
+[2.813s] running install_data
+[2.815s] running install_egg_info
+[2.824s] removing '/home/auria/src/install/environment/lib/python3.8/site-packages/environment-0.1.0-py3.8.egg-info' (and everything under it)
+[2.824s] Copying ../build/environment/environment.egg-info to /home/auria/src/install/environment/lib/python3.8/site-packages/environment-0.1.0-py3.8.egg-info
+[2.831s] running install_scripts
+[2.899s] Installing car script to /home/auria/src/install/environment/lib/environment
+[2.900s] Installing env script to /home/auria/src/install/environment/lib/environment
+[2.902s] writing list of installed files to '/home/auria/src/build/environment/install.log'
+[2.977s] Invoked command in '/home/auria/src/environment' returned '0': AMENT_PREFIX_PATH=/home/auria/src/install/auria_msgs CMAKE_PREFIX_PATH=/home/auria/src/install/auria_msgs LD_LIBRARY_PATH=/home/auria/src/install/auria_msgs/lib PYTHONPATH=/home/auria/src/build/environment/prefix_override:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/environment build --build-base /home/auria/src/build/environment/build install --record /home/auria/src/build/environment/install.log --single-version-externally-managed

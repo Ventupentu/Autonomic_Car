@@ -1,0 +1,21 @@
+[0.104s] Invoking command in '/home/auria/build/auria_msgs': /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/install/auria_msgs
+[0.441s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.441s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.442s]   has asked CMake to find a package configuration file provided by
+[0.442s]   "ament_cmake", but CMake did not find one.
+[0.442s] 
+[0.445s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.449s]   any of the following names:
+[0.450s] 
+[0.450s]     ament_cmakeConfig.cmake
+[0.450s]     ament_cmake-config.cmake
+[0.450s] 
+[0.451s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.451s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.451s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.458s]   has been installed.
+[0.460s] 
+[0.460s] 
+[0.460s] -- Configuring incomplete, errors occurred!
+[0.464s] See also "/home/auria/build/auria_msgs/CMakeFiles/CMakeOutput.log".
+[0.907s] Invoked command in '/home/auria/build/auria_msgs' returned '1': /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/install/auria_msgs

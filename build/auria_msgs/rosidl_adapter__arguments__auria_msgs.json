@@ -1,0 +1,6 @@
+{
+  "package_name": "auria_msgs",
+  "non_idl_tuples": [
+    "/home/auria/src/auria_msgs:msg/PointArray.msg"
+  ]
+}

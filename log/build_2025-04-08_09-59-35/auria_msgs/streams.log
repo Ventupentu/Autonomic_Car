@@ -1,0 +1,35 @@
+[0.086s] Invoking command in '/home/auria/build/auria_msgs': /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/install/auria_msgs
+[0.823s] -- The C compiler identification is GNU 9.4.0
+[1.058s] -- The CXX compiler identification is GNU 9.4.0
+[1.114s] -- Check for working C compiler: /usr/bin/cc
+[1.534s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.550s] -- Detecting C compiler ABI info
+[1.898s] -- Detecting C compiler ABI info - done
+[1.958s] -- Detecting C compile features
+[1.964s] -- Detecting C compile features - done
+[1.977s] -- Check for working CXX compiler: /usr/bin/c++
+[2.384s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.393s] -- Detecting CXX compiler ABI info
+[2.813s] -- Detecting CXX compiler ABI info - done
+[2.903s] -- Detecting CXX compile features
+[2.905s] -- Detecting CXX compile features - done
+[2.951s] CMake Error at CMakeLists.txt:4 (find_package):
+[2.953s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.956s]   has asked CMake to find a package configuration file provided by
+[2.960s]   "ament_cmake", but CMake did not find one.
+[2.960s] 
+[2.960s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.961s]   any of the following names:
+[2.961s] 
+[2.961s]     ament_cmakeConfig.cmake
+[2.961s]     ament_cmake-config.cmake
+[2.969s] 
+[2.969s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.970s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.970s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.971s]   has been installed.
+[2.971s] 
+[2.971s] 
+[2.971s] -- Configuring incomplete, errors occurred!
+[2.972s] See also "/home/auria/build/auria_msgs/CMakeFiles/CMakeOutput.log".
+[2.978s] Invoked command in '/home/auria/build/auria_msgs' returned '1': /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/install/auria_msgs

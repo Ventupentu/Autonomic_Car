@@ -1,0 +1,47 @@
+[2.209s] Invoking command in '/home/auria/src/environment': AMENT_PREFIX_PATH=/home/auria/src/install/auria_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/auria/src/install/auria_msgs LD_LIBRARY_PATH=/home/auria/src/install/auria_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/auria/src/build/environment/prefix_override:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/environment build --build-base /home/auria/src/build/environment/build install --record /home/auria/src/build/environment/install.log --single-version-externally-managed
+[2.984s] running egg_info
+[2.986s] creating ../build/environment/environment.egg-info
+[2.988s] writing ../build/environment/environment.egg-info/PKG-INFO
+[2.988s] writing dependency_links to ../build/environment/environment.egg-info/dependency_links.txt
+[2.988s] writing entry points to ../build/environment/environment.egg-info/entry_points.txt
+[2.989s] writing requirements to ../build/environment/environment.egg-info/requires.txt
+[2.991s] writing top-level names to ../build/environment/environment.egg-info/top_level.txt
+[2.995s] writing manifest file '../build/environment/environment.egg-info/SOURCES.txt'
+[3.127s] reading manifest file '../build/environment/environment.egg-info/SOURCES.txt'
+[3.131s] writing manifest file '../build/environment/environment.egg-info/SOURCES.txt'
+[3.134s] running build
+[3.134s] running build_py
+[3.135s] creating /home/auria/src/build/environment/build
+[3.135s] creating /home/auria/src/build/environment/build/lib
+[3.135s] creating /home/auria/src/build/environment/build/lib/environment
+[3.139s] copying environment/__init__.py -> /home/auria/src/build/environment/build/lib/environment
+[3.141s] copying environment/environment.py -> /home/auria/src/build/environment/build/lib/environment
+[3.141s] copying environment/car.py -> /home/auria/src/build/environment/build/lib/environment
+[3.141s] running install
+[3.142s] running install_lib
+[3.142s] creating /home/auria/src/install/environment/lib/python3.8/site-packages/environment
+[3.142s] copying /home/auria/src/build/environment/build/lib/environment/__init__.py -> /home/auria/src/install/environment/lib/python3.8/site-packages/environment
+[3.142s] copying /home/auria/src/build/environment/build/lib/environment/environment.py -> /home/auria/src/install/environment/lib/python3.8/site-packages/environment
+[3.143s] copying /home/auria/src/build/environment/build/lib/environment/car.py -> /home/auria/src/install/environment/lib/python3.8/site-packages/environment
+[3.144s] byte-compiling /home/auria/src/install/environment/lib/python3.8/site-packages/environment/__init__.py to __init__.cpython-38.pyc
+[3.149s] byte-compiling /home/auria/src/install/environment/lib/python3.8/site-packages/environment/environment.py to environment.cpython-38.pyc
+[3.155s] byte-compiling /home/auria/src/install/environment/lib/python3.8/site-packages/environment/car.py to car.cpython-38.pyc
+[3.157s] running install_data
+[3.158s] creating /home/auria/src/install/environment/share/ament_index
+[3.159s] creating /home/auria/src/install/environment/share/ament_index/resource_index
+[3.160s] creating /home/auria/src/install/environment/share/ament_index/resource_index/packages
+[3.161s] copying resource/environment -> /home/auria/src/install/environment/share/ament_index/resource_index/packages
+[3.161s] copying package.xml -> /home/auria/src/install/environment/share/environment
+[3.161s] creating /home/auria/src/install/environment/share/environment/tracks
+[3.162s] copying tracks/circular.csv -> /home/auria/src/install/environment/share/environment/tracks
+[3.162s] copying tracks/acceleration.csv -> /home/auria/src/install/environment/share/environment/tracks
+[3.162s] copying tracks/small_track.csv -> /home/auria/src/install/environment/share/environment/tracks
+[3.162s] creating /home/auria/src/install/environment/share/environment/launch
+[3.163s] copying launch/launch_env.py -> /home/auria/src/install/environment/share/environment/launch
+[3.163s] running install_egg_info
+[3.168s] Copying ../build/environment/environment.egg-info to /home/auria/src/install/environment/lib/python3.8/site-packages/environment-0.1.0-py3.8.egg-info
+[3.171s] running install_scripts
+[3.236s] Installing car script to /home/auria/src/install/environment/lib/environment
+[3.236s] Installing env script to /home/auria/src/install/environment/lib/environment
+[3.237s] writing list of installed files to '/home/auria/src/build/environment/install.log'
+[3.312s] Invoked command in '/home/auria/src/environment' returned '0': AMENT_PREFIX_PATH=/home/auria/src/install/auria_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/auria/src/install/auria_msgs LD_LIBRARY_PATH=/home/auria/src/install/auria_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/auria/src/build/environment/prefix_override:/home/auria/src/install/environment/lib/python3.8/site-packages:/home/auria/src/install/auria_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/environment build --build-base /home/auria/src/build/environment/build install --record /home/auria/src/build/environment/install.log --single-version-externally-managed

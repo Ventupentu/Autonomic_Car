@@ -1,0 +1,28 @@
+running egg_info
+writing ../build/rl_driver/rl_driver.egg-info/PKG-INFO
+writing dependency_links to ../build/rl_driver/rl_driver.egg-info/dependency_links.txt
+writing entry points to ../build/rl_driver/rl_driver.egg-info/entry_points.txt
+writing requirements to ../build/rl_driver/rl_driver.egg-info/requires.txt
+writing top-level names to ../build/rl_driver/rl_driver.egg-info/top_level.txt
+reading manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'
+writing manifest file '../build/rl_driver/rl_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rl_driver/train.py -> /home/auria/src/build/rl_driver/build/lib/rl_driver
+copying rl_driver/gym_ros2_env.py -> /home/auria/src/build/rl_driver/build/lib/rl_driver
+copying rl_driver/rl_node.py -> /home/auria/src/build/rl_driver/build/lib/rl_driver
+running install
+running install_lib
+copying /home/auria/src/build/rl_driver/build/lib/rl_driver/train.py -> /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver
+copying /home/auria/src/build/rl_driver/build/lib/rl_driver/gym_ros2_env.py -> /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver
+copying /home/auria/src/build/rl_driver/build/lib/rl_driver/rl_node.py -> /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver
+byte-compiling /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver/train.py to train.cpython-38.pyc
+byte-compiling /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver/gym_ros2_env.py to gym_ros2_env.cpython-38.pyc
+byte-compiling /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver/rl_node.py to rl_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/rl_driver/rl_driver.egg-info to /home/auria/src/install/rl_driver/lib/python3.8/site-packages/rl_driver-0.0.0-py3.8.egg-info
+running install_scripts
+Installing rl_node script to /home/auria/src/install/rl_driver/lib/rl_driver
+writing list of installed files to '/home/auria/src/build/rl_driver/install.log'

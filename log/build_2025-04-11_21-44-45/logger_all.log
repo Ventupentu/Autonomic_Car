@@ -1,0 +1,269 @@
+[0.602s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.602s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c07f0d2b640>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c07f0d2b640>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c07f0d2bb80>)
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.707s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/auria'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/auria_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/auria_msgs) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/auria_msgs) by extension 'ignore_ament_install'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/auria_msgs) by extensions ['colcon_pkg']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/auria_msgs) by extension 'colcon_pkg'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/auria_msgs) by extensions ['colcon_meta']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/auria_msgs) by extension 'colcon_meta'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/auria_msgs) by extensions ['ros']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/auria_msgs) by extension 'ros'
+[0.768s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auria_msgs' with type 'ros.ament_cmake' and name 'auria_msgs'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment) by extensions ['colcon_pkg']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment) by extension 'colcon_pkg'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment) by extension 'ros'
+[0.772s] DEBUG:colcon.colcon_core.package_identification:Package 'src/environment' with type 'ros.ament_python' and name 'environment'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_driver) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_driver) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_driver) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_driver) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_driver) by extensions ['colcon_meta']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_driver) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_driver) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_driver) by extension 'ros'
+[0.779s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rl_driver' with type 'ros.ament_python' and name 'rl_driver'
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.893s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 182 installed packages in /opt/ros/galactic
+[0.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'auria_msgs' build argument 'cmake_args' from command line to 'None'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'auria_msgs' build argument 'cmake_target' from command line to 'None'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'auria_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'auria_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'auria_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'auria_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'auria_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'auria_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'auria_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.143s] DEBUG:colcon.colcon_core.verb:Building package 'auria_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/auria/build/auria_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/auria/install/auria_msgs', 'merge_install': False, 'path': '/home/auria/src/auria_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'rl_driver' build argument 'cmake_args' from command line to 'None'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'rl_driver' build argument 'cmake_target' from command line to 'None'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'rl_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'rl_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'rl_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'rl_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.147s] Level 5:colcon.colcon_core.verb:set package 'rl_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'rl_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.148s] Level 5:colcon.colcon_core.verb:set package 'rl_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.148s] DEBUG:colcon.colcon_core.verb:Building package 'rl_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/auria/build/rl_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/auria/install/rl_driver', 'merge_install': False, 'path': '/home/auria/src/rl_driver', 'symlink_install': False, 'test_result_base': None}
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'environment' build argument 'cmake_args' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'environment' build argument 'cmake_target' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'environment' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'environment' build argument 'cmake_clean_cache' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'environment' build argument 'cmake_clean_first' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'environment' build argument 'cmake_force_configure' from command line to 'False'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'environment' build argument 'ament_cmake_args' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'environment' build argument 'catkin_cmake_args' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'environment' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.152s] DEBUG:colcon.colcon_core.verb:Building package 'environment' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/auria/build/environment', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/auria/install/environment', 'merge_install': False, 'path': '/home/auria/src/environment', 'symlink_install': False, 'test_result_base': None}
+[1.154s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/auria/src/auria_msgs' with build type 'ament_cmake'
+[1.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/auria/src/auria_msgs'
+[1.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.209s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/auria/src/rl_driver' with build type 'ament_python'
+[1.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('rl_driver', 'ament_prefix_path')
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/rl_driver/share/rl_driver/hook/ament_prefix_path.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/rl_driver/share/rl_driver/hook/ament_prefix_path.dsv'
+[1.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/rl_driver/share/rl_driver/hook/ament_prefix_path.sh'
+[1.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/auria/build/auria_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/install/auria_msgs
+[2.042s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/auria/src/rl_driver'
+[2.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.048s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/auria/src/rl_driver': PYTHONPATH=/home/auria/build/rl_driver/prefix_override:/home/auria/install/rl_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rl_driver build --build-base /home/auria/build/rl_driver/build install --record /home/auria/build/rl_driver/install.log --single-version-externally-managed
+[4.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/auria/src/rl_driver' returned '0': PYTHONPATH=/home/auria/build/rl_driver/prefix_override:/home/auria/install/rl_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rl_driver build --build-base /home/auria/build/rl_driver/build install --record /home/auria/build/rl_driver/install.log --single-version-externally-managed
+[4.344s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/rl_driver' for CMake module files
+[4.346s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/rl_driver' for CMake config files
+[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/rl_driver/lib'
+[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/rl_driver/bin'
+[4.351s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/rl_driver/lib/pkgconfig/rl_driver.pc'
+[4.352s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/rl_driver/lib/python3.8/site-packages'
+[4.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('rl_driver', 'pythonpath')
+[4.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/rl_driver/share/rl_driver/hook/pythonpath.ps1'
+[4.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/rl_driver/share/rl_driver/hook/pythonpath.dsv'
+[4.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/rl_driver/share/rl_driver/hook/pythonpath.sh'
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/rl_driver/bin'
+[4.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rl_driver)
+[4.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/rl_driver/share/rl_driver/package.ps1'
+[4.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/auria/install/rl_driver/share/rl_driver/package.dsv'
+[4.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/rl_driver/share/rl_driver/package.sh'
+[4.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/rl_driver/share/rl_driver/package.bash'
+[4.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/rl_driver/share/rl_driver/package.zsh'
+[4.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/auria/install/rl_driver/share/colcon-core/packages/rl_driver)
+[4.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/auria/build/auria_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/auria/src/auria_msgs -DCMAKE_INSTALL_PREFIX=/home/auria/install/auria_msgs
+[4.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/auria/build/auria_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/auria/build/auria_msgs -- -j4 -l4
+[14.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/auria/build/auria_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/auria/build/auria_msgs -- -j4 -l4
+[14.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/auria/build/auria_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/auria/build/auria_msgs
+[14.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auria_msgs)
+[14.793s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs' for CMake module files
+[14.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/auria/build/auria_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/auria/build/auria_msgs
+[14.796s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs' for CMake config files
+[14.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('auria_msgs', 'cmake_prefix_path')
+[14.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/cmake_prefix_path.ps1'
+[14.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/auria_msgs/share/auria_msgs/hook/cmake_prefix_path.dsv'
+[14.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/cmake_prefix_path.sh'
+[14.809s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/lib'
+[14.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('auria_msgs', 'ld_library_path_lib')
+[14.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/ld_library_path_lib.ps1'
+[14.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/auria_msgs/share/auria_msgs/hook/ld_library_path_lib.dsv'
+[14.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/ld_library_path_lib.sh'
+[14.817s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/bin'
+[14.817s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/lib/pkgconfig/auria_msgs.pc'
+[14.818s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/lib/python3.8/site-packages'
+[14.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('auria_msgs', 'pythonpath')
+[14.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/pythonpath.ps1'
+[14.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/auria_msgs/share/auria_msgs/hook/pythonpath.dsv'
+[14.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/pythonpath.sh'
+[14.827s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/bin'
+[14.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/auria_msgs/share/auria_msgs/package.ps1'
+[14.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/auria/install/auria_msgs/share/auria_msgs/package.dsv'
+[14.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/auria_msgs/share/auria_msgs/package.sh'
+[14.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/auria_msgs/share/auria_msgs/package.bash'
+[14.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/auria_msgs/share/auria_msgs/package.zsh'
+[14.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/auria/install/auria_msgs/share/colcon-core/packages/auria_msgs)
+[15.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auria_msgs)
+[15.044s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs' for CMake module files
+[15.047s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs' for CMake config files
+[15.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('auria_msgs', 'cmake_prefix_path')
+[15.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/cmake_prefix_path.ps1'
+[15.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/auria_msgs/share/auria_msgs/hook/cmake_prefix_path.dsv'
+[15.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/cmake_prefix_path.sh'
+[15.060s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/lib'
+[15.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('auria_msgs', 'ld_library_path_lib')
+[15.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/ld_library_path_lib.ps1'
+[15.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/auria_msgs/share/auria_msgs/hook/ld_library_path_lib.dsv'
+[15.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/ld_library_path_lib.sh'
+[15.068s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/bin'
+[15.069s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/lib/pkgconfig/auria_msgs.pc'
+[15.070s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/lib/python3.8/site-packages'
+[15.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('auria_msgs', 'pythonpath')
+[15.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/pythonpath.ps1'
+[15.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/auria_msgs/share/auria_msgs/hook/pythonpath.dsv'
+[15.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/auria_msgs/share/auria_msgs/hook/pythonpath.sh'
+[15.078s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/auria_msgs/bin'
+[15.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/auria_msgs/share/auria_msgs/package.ps1'
+[15.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/auria/install/auria_msgs/share/auria_msgs/package.dsv'
+[15.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/auria_msgs/share/auria_msgs/package.sh'
+[15.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/auria_msgs/share/auria_msgs/package.bash'
+[15.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/auria_msgs/share/auria_msgs/package.zsh'
+[15.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/auria/install/auria_msgs/share/colcon-core/packages/auria_msgs)
+[15.094s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/auria/src/environment' with build type 'ament_python'
+[15.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('environment', 'ament_prefix_path')
+[15.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/environment/share/environment/hook/ament_prefix_path.ps1'
+[15.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/environment/share/environment/hook/ament_prefix_path.dsv'
+[15.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/environment/share/environment/hook/ament_prefix_path.sh'
+[15.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.895s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/auria/src/environment'
+[15.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/auria/src/environment': AMENT_PREFIX_PATH=/home/auria/install/auria_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/auria/install/auria_msgs LD_LIBRARY_PATH=/home/auria/install/auria_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/auria/build/environment/prefix_override:/home/auria/install/environment/lib/python3.8/site-packages:/home/auria/install/auria_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/environment build --build-base /home/auria/build/environment/build install --record /home/auria/build/environment/install.log --single-version-externally-managed
+[18.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/auria/src/environment' returned '0': AMENT_PREFIX_PATH=/home/auria/install/auria_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/auria/install/auria_msgs LD_LIBRARY_PATH=/home/auria/install/auria_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/auria/build/environment/prefix_override:/home/auria/install/environment/lib/python3.8/site-packages:/home/auria/install/auria_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/environment build --build-base /home/auria/build/environment/build install --record /home/auria/build/environment/install.log --single-version-externally-managed
+[18.190s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/environment' for CMake module files
+[18.193s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/environment' for CMake config files
+[18.196s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/environment/lib'
+[18.196s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/environment/bin'
+[18.196s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/environment/lib/pkgconfig/environment.pc'
+[18.198s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/environment/lib/python3.8/site-packages'
+[18.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('environment', 'pythonpath')
+[18.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/environment/share/environment/hook/pythonpath.ps1'
+[18.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/auria/install/environment/share/environment/hook/pythonpath.dsv'
+[18.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/auria/install/environment/share/environment/hook/pythonpath.sh'
+[18.209s] Level 1:colcon.colcon_core.environment:checking '/home/auria/install/environment/bin'
+[18.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(environment)
+[18.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/environment/share/environment/package.ps1'
+[18.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/auria/install/environment/share/environment/package.dsv'
+[18.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/environment/share/environment/package.sh'
+[18.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/environment/share/environment/package.bash'
+[18.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/auria/install/environment/share/environment/package.zsh'
+[18.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/auria/install/environment/share/colcon-core/packages/environment)
+[18.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.226s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.263s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[18.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.264s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.273s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[18.275s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/auria/install/local_setup.ps1'
+[18.288s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/auria/install/_local_setup_util_ps1.py'
+[18.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/auria/install/setup.ps1'
+[18.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/auria/install/local_setup.sh'
+[18.300s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/auria/install/_local_setup_util_sh.py'
+[18.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/auria/install/setup.sh'
+[18.307s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/auria/install/local_setup.bash'
+[18.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/auria/install/setup.bash'
+[18.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/auria/install/local_setup.zsh'
+[18.314s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/auria/install/setup.zsh'
